@@ -1,0 +1,299 @@
+2025-03-31 13:13:33,214:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-31 13:13:33,214:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-31 13:13:33,214:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-31 13:13:33,214:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-03-31 13:13:35,660:INFO:Initializing load_model()
+2025-03-31 13:13:35,661:INFO:load_model(model_name=./data/model, platform=None, authentication=None, verbose=True)
+2025-03-31 13:14:19,277:INFO:Initializing predict_model()
+2025-03-31 13:14:19,277:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db5586a0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245db5af5b0>)
+2025-03-31 13:14:19,277:INFO:Checking exceptions
+2025-03-31 13:14:19,277:INFO:Preloading libraries
+2025-03-31 13:14:19,278:INFO:Set up data.
+2025-03-31 13:14:19,286:INFO:Set up index.
+2025-03-31 13:14:19,386:INFO:Initializing predict_model()
+2025-03-31 13:14:19,386:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db59ce50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245db5edd80>)
+2025-03-31 13:14:19,386:INFO:Checking exceptions
+2025-03-31 13:14:19,386:INFO:Preloading libraries
+2025-03-31 13:14:19,386:INFO:Set up data.
+2025-03-31 13:14:19,391:INFO:Set up index.
+2025-03-31 13:15:10,906:INFO:Initializing predict_model()
+2025-03-31 13:15:10,906:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dba0a620>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbcc9d0>)
+2025-03-31 13:15:10,906:INFO:Checking exceptions
+2025-03-31 13:15:10,906:INFO:Preloading libraries
+2025-03-31 13:15:10,906:INFO:Set up data.
+2025-03-31 13:15:10,914:INFO:Set up index.
+2025-03-31 13:15:11,295:INFO:Initializing predict_model()
+2025-03-31 13:15:11,295:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db90d6f0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbce9e0>)
+2025-03-31 13:15:11,295:INFO:Checking exceptions
+2025-03-31 13:15:11,295:INFO:Preloading libraries
+2025-03-31 13:15:11,295:INFO:Set up data.
+2025-03-31 13:15:11,308:INFO:Set up index.
+2025-03-31 13:15:17,484:INFO:Initializing predict_model()
+2025-03-31 13:15:17,485:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db8e3790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbcdfc0>)
+2025-03-31 13:15:17,485:INFO:Checking exceptions
+2025-03-31 13:15:17,485:INFO:Preloading libraries
+2025-03-31 13:15:17,485:INFO:Set up data.
+2025-03-31 13:15:17,489:INFO:Set up index.
+2025-03-31 13:15:17,872:INFO:Initializing predict_model()
+2025-03-31 13:15:17,872:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dba08f40>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbab8430>)
+2025-03-31 13:15:17,872:INFO:Checking exceptions
+2025-03-31 13:15:17,872:INFO:Preloading libraries
+2025-03-31 13:15:17,872:INFO:Set up data.
+2025-03-31 13:15:17,878:INFO:Set up index.
+2025-03-31 13:15:26,838:INFO:Initializing predict_model()
+2025-03-31 13:15:26,838:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db8e37c0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245db5af910>)
+2025-03-31 13:15:26,838:INFO:Checking exceptions
+2025-03-31 13:15:26,839:INFO:Preloading libraries
+2025-03-31 13:15:26,839:INFO:Set up data.
+2025-03-31 13:15:26,847:INFO:Set up index.
+2025-03-31 13:15:27,393:INFO:Initializing predict_model()
+2025-03-31 13:15:27,393:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dba1ca30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbce050>)
+2025-03-31 13:15:27,393:INFO:Checking exceptions
+2025-03-31 13:15:27,393:INFO:Preloading libraries
+2025-03-31 13:15:27,393:INFO:Set up data.
+2025-03-31 13:15:27,396:INFO:Set up index.
+2025-03-31 13:15:33,526:INFO:Initializing predict_model()
+2025-03-31 13:15:33,526:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dba1c640>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbce290>)
+2025-03-31 13:15:33,526:INFO:Checking exceptions
+2025-03-31 13:15:33,526:INFO:Preloading libraries
+2025-03-31 13:15:33,527:INFO:Set up data.
+2025-03-31 13:15:33,533:INFO:Set up index.
+2025-03-31 13:15:42,121:INFO:Initializing predict_model()
+2025-03-31 13:15:42,121:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db90dc00>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbbcfac0>)
+2025-03-31 13:15:42,121:INFO:Checking exceptions
+2025-03-31 13:15:42,121:INFO:Preloading libraries
+2025-03-31 13:15:42,121:INFO:Set up data.
+2025-03-31 13:15:42,125:INFO:Set up index.
+2025-03-31 13:15:42,570:INFO:Initializing predict_model()
+2025-03-31 13:15:42,571:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dba0a5f0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dba42dd0>)
+2025-03-31 13:15:42,571:INFO:Checking exceptions
+2025-03-31 13:15:42,571:INFO:Preloading libraries
+2025-03-31 13:15:42,571:INFO:Set up data.
+2025-03-31 13:15:42,577:INFO:Set up index.
+2025-03-31 13:15:52,173:INFO:Initializing predict_model()
+2025-03-31 13:15:52,173:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db59f9a0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dba43a30>)
+2025-03-31 13:15:52,173:INFO:Checking exceptions
+2025-03-31 13:15:52,173:INFO:Preloading libraries
+2025-03-31 13:15:52,174:INFO:Set up data.
+2025-03-31 13:15:52,181:INFO:Set up index.
+2025-03-31 13:15:52,603:INFO:Initializing predict_model()
+2025-03-31 13:15:52,603:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245e8bc4220>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbab8d30>)
+2025-03-31 13:15:52,603:INFO:Checking exceptions
+2025-03-31 13:15:52,603:INFO:Preloading libraries
+2025-03-31 13:15:52,604:INFO:Set up data.
+2025-03-31 13:15:52,607:INFO:Set up index.
+2025-03-31 13:15:57,342:INFO:Initializing predict_model()
+2025-03-31 13:15:57,342:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245e8bc52a0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbab8790>)
+2025-03-31 13:15:57,342:INFO:Checking exceptions
+2025-03-31 13:15:57,342:INFO:Preloading libraries
+2025-03-31 13:15:57,343:INFO:Set up data.
+2025-03-31 13:15:57,351:INFO:Set up index.
+2025-03-31 13:15:57,786:INFO:Initializing predict_model()
+2025-03-31 13:15:57,786:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245db59fc70>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dba40940>)
+2025-03-31 13:15:57,786:INFO:Checking exceptions
+2025-03-31 13:15:57,786:INFO:Preloading libraries
+2025-03-31 13:15:57,787:INFO:Set up data.
+2025-03-31 13:15:57,793:INFO:Set up index.
+2025-03-31 13:16:05,076:INFO:Initializing predict_model()
+2025-03-31 13:16:05,076:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245dbc2c3d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbb03880>)
+2025-03-31 13:16:05,076:INFO:Checking exceptions
+2025-03-31 13:16:05,076:INFO:Preloading libraries
+2025-03-31 13:16:05,077:INFO:Set up data.
+2025-03-31 13:16:05,084:INFO:Set up index.
+2025-03-31 13:16:05,509:INFO:Initializing predict_model()
+2025-03-31 13:16:05,514:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7245e3698220>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x7245dbaba170>)
+2025-03-31 13:16:05,514:INFO:Checking exceptions
+2025-03-31 13:16:05,514:INFO:Preloading libraries
+2025-03-31 13:16:05,514:INFO:Set up data.
+2025-03-31 13:16:05,517:INFO:Set up index.
