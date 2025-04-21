@@ -297,3 +297,125 @@
 2025-03-31 13:16:05,514:INFO:Preloading libraries
 2025-03-31 13:16:05,514:INFO:Set up data.
 2025-03-31 13:16:05,517:INFO:Set up index.
+2025-04-21 09:28:13,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 09:28:13,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 09:28:13,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 09:28:13,841:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 09:28:52,598:INFO:Initializing load_model()
+2025-04-21 09:28:52,599:INFO:load_model(model_name=./data/model, platform=None, authentication=None, verbose=True)
+2025-04-21 10:24:27,212:INFO:Initializing predict_model()
+2025-04-21 10:24:27,213:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x705efe8db310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x705efe89a5f0>)
+2025-04-21 10:24:27,213:INFO:Checking exceptions
+2025-04-21 10:24:27,213:INFO:Preloading libraries
+2025-04-21 10:24:27,213:INFO:Set up data.
+2025-04-21 10:24:27,254:INFO:Set up index.
+2025-04-21 10:24:38,262:INFO:Initializing predict_model()
+2025-04-21 10:24:38,262:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x705efe858c10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x705efeda4af0>)
+2025-04-21 10:24:38,262:INFO:Checking exceptions
+2025-04-21 10:24:38,262:INFO:Preloading libraries
+2025-04-21 10:24:38,262:INFO:Set up data.
+2025-04-21 10:24:38,268:INFO:Set up index.
+2025-04-21 10:36:46,544:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 10:36:46,545:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 10:36:46,545:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 10:36:46,545:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-21 10:37:01,328:INFO:Initializing load_model()
+2025-04-21 10:37:01,329:INFO:load_model(model_name=./data/model, platform=None, authentication=None, verbose=True)
+2025-04-21 10:38:40,188:INFO:Initializing predict_model()
+2025-04-21 10:38:40,188:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74a3783cb490>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74a378392dd0>)
+2025-04-21 10:38:40,188:INFO:Checking exceptions
+2025-04-21 10:38:40,188:INFO:Preloading libraries
+2025-04-21 10:38:40,188:INFO:Set up data.
+2025-04-21 10:38:40,197:INFO:Set up index.
+2025-04-21 10:38:46,416:INFO:Initializing predict_model()
+2025-04-21 10:38:46,416:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74a37880ab00>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74a37889caf0>)
+2025-04-21 10:38:46,416:INFO:Checking exceptions
+2025-04-21 10:38:46,416:INFO:Preloading libraries
+2025-04-21 10:38:46,416:INFO:Set up data.
+2025-04-21 10:38:46,423:INFO:Set up index.
+2025-04-21 10:38:49,203:INFO:Initializing predict_model()
+2025-04-21 10:38:49,204:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74a37880ac20>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74a37889ca60>)
+2025-04-21 10:38:49,204:INFO:Checking exceptions
+2025-04-21 10:38:49,204:INFO:Preloading libraries
+2025-04-21 10:38:49,204:INFO:Set up data.
+2025-04-21 10:38:49,211:INFO:Set up index.
+2025-04-21 10:38:51,352:INFO:Initializing predict_model()
+2025-04-21 10:38:51,352:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x74a378809780>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['HR', 'BT', 'AGE',
+                                             'DUCT_DILIATATION_10MM', 'Hb',
+                                             'PLT', 'WBC', 'ALP', 'ALT', 'AST',
+                                             'TOTAL_BILIRUBIN'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('trained_model',
+                 ExtraTreesClassifier(n_jobs=5, random_state=11))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x74a37889d2d0>)
+2025-04-21 10:38:51,352:INFO:Checking exceptions
+2025-04-21 10:38:51,352:INFO:Preloading libraries
+2025-04-21 10:38:51,352:INFO:Set up data.
+2025-04-21 10:38:51,360:INFO:Set up index.

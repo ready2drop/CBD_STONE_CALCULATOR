@@ -33,36 +33,42 @@ def parse_args(args):
 
 # Inference function
 def classify(tabular_data):
+    
     try:
         # Ensure tabular_data is a 2D list and extract the first row
         if isinstance(tabular_data, list) and isinstance(tabular_data[0], list):
-            tabular_data = tabular_data[0]  # Extract the first row
+            tabular_data = tabular_data[0] # Extract the first row
         else:
             raise ValueError("Input data is not in the expected 2D list format.")
-        
+ 
         # Convert input data to a pandas DataFrame
         input_data = pd.DataFrame([tabular_data], columns= tabular_header)
         print(f"Original Input DataFrame:\n{input_data}")
-    
+
         # Use PyCaret's predict_model to make predictions
         prediction = predict_model(model, data=input_data)
-        
+ 
         # Extract predicted class and probability
         predicted_class = prediction.loc[0, "prediction_label"]
         class_probability = prediction.loc[0, "prediction_score"]
 
-        # Generate appropriate output based on the prediction
-        if predicted_class == 1:
+        # Generate appropriate output based on the prediction and probability
+        if class_probability < 0.34:
             result = (
-                f"Based on the provided data, this tool estimates a {class_probability:.2f} probability "
+                f"This analysis estimates a low probability ({class_probability:.2f}) of a common bile duct stone. "
+                 "Please consult a medical professional for final diagnosis."
+            )
+        elif 0.34 <= class_probability < 0.67:
+            result = (
+                f"Based on the provided data, this tool estimates an intermediate probability ({class_probability:.2f}) "
+                "of a common bile duct stone. Further medical review is recommended."
+            )
+        else: # class_probability >= 0.67
+            result = (
+                f"Based on the provided data, this tool estimates a high probability ({class_probability:.2f}) "
                 "of a common bile duct stone. Further medical review is necessary."
             )
-        else:
-            result = (
-                f"This analysis estimates a {class_probability:.2f} probability that no common bile duct stone is present. "
-                "Please consult a medical professional for final diagnosis."
-            )
-        
+
         return result
 
     except Exception as e:
