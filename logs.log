@@ -419,3 +419,13 @@
 2025-04-21 10:38:51,352:INFO:Preloading libraries
 2025-04-21 10:38:51,352:INFO:Set up data.
 2025-04-21 10:38:51,360:INFO:Set up index.
+2025-05-15 04:17:13,777:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-15 04:17:13,777:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-15 04:17:13,777:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-15 04:17:13,777:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-15 04:17:27,838:INFO:Initializing load_model()
+2025-05-15 04:17:27,839:INFO:load_model(model_name=./data/model, platform=None, authentication=None, verbose=True)

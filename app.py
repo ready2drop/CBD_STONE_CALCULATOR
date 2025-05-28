@@ -151,11 +151,7 @@ if __name__ == '__main__':
                 tabular_input = gr.Dataframe(headers= tabular_header, datatype= tabular_dtype, label="Tabular Input", type="array", interactive=True, row_count=1, col_count=11)
                 info = gr.Textbox(lines=1, label="Patient info", visible = False)
 
-                with gr.Accordion("Parameters", open=False) as parameter_row:
-                    temperature = gr.Slider(minimum=0.0, maximum=1.0, value=0.2, step=0.1, interactive=True,
-                                            label="Temperature", )
-                    top_p = gr.Slider(minimum=0.0, maximum=1.0, value=0.4, step=0.1, interactive=True, label="Top P", )
-                    
+
                 with gr.Row():
                     # btn_c = gr.ClearButton([tabular_input])
                     btn_c = gr.Button("Clear")
